@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>metavrse.io</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="static/bundle.js"></script>
+  </head>
+  <body>
+
+    <div id="text-panel">
+      <h1>metavrse.io</h1>
+      <p>Ideas and live demos about creating virtual worlds in the browser.</p>
+    </div>
+
+    <a-scene vr-mode-ui="enabled: false">
+      <a-entity>
+        <a-entity camera wasd-controls look-controls></a-entity>
+      </a-entity>
+
+      <a-entity position="0 0.25 -5">
+        <a-box color="#a00005"></a-box>
+      </a-entity>
+    </a-scene>
+
+  </body>
+</html>

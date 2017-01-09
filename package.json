@@ -1,0 +1,49 @@
+{
+  "name": "metavrse.io",
+  "version": "1.0.0",
+  "description": "metavrse.io site",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js:static/bundle.js --live --port 1337"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "sassify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnboundVR/metavrse.io.git"
+  },
+  "keywords": [
+    "vr",
+    "webvr",
+    "aframe",
+    "metaverse"
+  ],
+  "author": "gmaliandi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UnboundVR/metavrse.io/issues"
+  },
+  "homepage": "https://github.com/UnboundVR/metavrse.io#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-runtime": "^6.18.0",
+    "babelify": "^7.3.0",
+    "budo": "^9.2.2",
+    "envify": "^4.0.0",
+    "eslint": "^3.10.2"
+  },
+  "dependencies": {
+    "aframe": "^0.4.0",
+    "aframe-text-component": "^0.4.0"
+  }
+}
