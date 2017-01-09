@@ -32,7 +32,8 @@
     "browser": true
   },
   "globals": {
-    "AFRAME"
+    "AFRAME",
+    "THREE"
   },
   "extends": [
     "eslint:recommended"
