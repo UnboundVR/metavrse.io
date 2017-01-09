@@ -14,14 +14,22 @@
       <p>Ideas and live demos about creating virtual worlds in the browser</p>
     </div>
 
-    <a-scene vr-mode-ui="enabled: false">
+    <a-scene antialias="true" vr-mode-ui="enabled: false">
+
       <a-entity>
-        <a-entity camera wasd-controls="fly: true" look-controls scroll-controls="speed: 7"></a-entity>
+        <a-entity
+          camera
+          look-controls
+          wasd-controls="fly: true"
+          scroll-controls="speed: 7"
+          mouse-cursor>
+        </a-entity>
       </a-entity>
 
-      <a-entity position="0 0.25 -5">
-        <a-box color="#a00005"></a-box>
-      </a-entity>
+      <a-box hoverable="id: 1" position="-2 0 -5" color="#a00002"></a-box>
+      <a-box hoverable="id: 2" position="0 0 -5" color="#a00002"></a-box>
+      <a-box hoverable="id: 3" position="2 0 -5" color="#a00002"></a-box>
+
     </a-scene>
 
   </body>

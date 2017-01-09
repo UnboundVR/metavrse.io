@@ -1,2 +1,5 @@
-require('aframe');
-require('./lib/scroll-controls.js');
+import 'aframe';
+import 'aframe-mouse-cursor-component';
+
+import './lib/scroll-controls';
+import './lib/hoverable';
