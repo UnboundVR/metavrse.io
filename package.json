@@ -43,6 +43,7 @@
     "eslint": "^3.10.2"
   },
   "dependencies": {
+    "aframe-text-component": "^0.4.0",
     "aframe": "^0.4.0",
     "aframe-mouse-cursor-component": "git://github.com/gmaliandi/aframe-mouse-cursor-component.git",
     "aframe-text-component": "^0.4.0"
