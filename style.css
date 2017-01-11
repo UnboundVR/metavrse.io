@@ -1,3 +1,16 @@
+#fake-scrollbar {
+  float: right;
+  height: 100%;
+  width: 15px;
+  background-color: #efefef;
+  z-index: 1;
+}
+
+  #fake-scrollbar #down-arrow {
+    position: absolute;
+    bottom: 0;
+  }
+
 body {
   font-family: 'Open Sans', sans-serif;
 
